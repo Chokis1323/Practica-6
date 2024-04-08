@@ -1,0 +1,81 @@
+.foto {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .zoom:hover{
+  background-color: rgb(0, 0, 0);
+  color: black;
+  scale: 115%; 
+
+
+
+  transition:scale 3s, background-color 1s;
+  
+  }
+
+  tr.titulo {
+  color: rgb(0, 0, 0);
+  background-color: #cfe4e3;
+   }
+
+  tr.clase1 {
+  color: white;
+  background-color: #74e2dd;
+   }
+
+   tr.clase2 {
+  color: white;
+  background-color: #978eeb;
+   }
+
+   tr.clase3 {
+  color: white;
+  background-color: #aa89df;
+   }
+
+   tr.clase4 {
+  color: white;
+  background-color: #c192db;
+   }
+
+   td{
+      color: black;
+   }
+   .contenedor1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+   }
+   .video {
+      flex: 1;
+      text-align: center;
+  }
+  .logo {
+      max-width: 150px;
+  }
+
+
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #7779f5;}
+
+#customers tr:hover {background-color: #ffb5b5;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #bf71f3;
+    color: rgb(0, 0, 0);
+}
